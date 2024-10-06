@@ -1,0 +1,41 @@
+/* 导航栏样式 */
+nav {
+  background: #a7c1cd;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 10px 20px; /* 增加两端的外边距 */
+  padding: 0 20px; /* 增加两端的内边距 */
+}
+
+/* 列表样式 */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* 列表项样式 */
+nav ul li {
+  margin: 0 15px;
+}
+
+/* 链接样式 */
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s, color 0.3s;
+  border-radius: 4px;
+}
+
+/* 悬停效果 */
+nav ul li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}

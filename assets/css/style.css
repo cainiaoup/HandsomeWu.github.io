@@ -36,6 +36,6 @@ nav ul li a {
 
 /* 悬停效果 */
 nav ul li a:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: #ffffff33;
   color: #fff;
 }
